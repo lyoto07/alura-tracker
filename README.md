@@ -1,6 +1,3 @@
-<h1 align="center">
-  <img alt="Logo" src=".github/logo.png" width="130px" />
-</h1>
 
 <h3 align="center">
   Vue3: Começando com o framework
