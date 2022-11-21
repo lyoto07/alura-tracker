@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div class="is-flex is-align-items-center is-justify-content-space-between">
         <Cronometro :tempoEmSegundos="tempoEmSegundos" />
         <button class="button" @click="iniciar" :disabled="cronometroRodando">
@@ -14,7 +14,16 @@
             <span>stop</span>
         </button>
     </div>
+</template> -->
+
+<template>
+    <section class="is-flex is-align-items-center is-justify-content-space-between">
+      <Cronometro :tempoEmSegundos="tempoEmSegundos"/>
+      <Botao @clicado="iniciar" icone="fas fa-play" texto="play" :desabilitado="cronometroRodando" />
+      <Botao @clicado="finalizar" icone="fas fa-stop" texto="stop" :desabilitado="!cronometroRodando" />
+    </section>
 </template>
+  
 
 <script lang="ts">
 import { defineComponent } from 'vue';
