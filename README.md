@@ -27,7 +27,7 @@
 ### Clonar este repositório
 
 ```bash
-git clone https://github.com/eliasmcastro/alura-tracker.git
+git clone git@github.com:lyoto07/alura-tracker.git
 ```
 
 ### Executar
