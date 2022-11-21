@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Logo" src=".github/logo_vue.png" width="130px" />
+  <img alt="Logo" src=".github/logo.png" width="130px" />
 </h1>
 
 <h3 align="center">
